@@ -26,7 +26,7 @@
     "run-example-javascript-node": "./run-example.sh examples/javascript-node",
     "run-example-javascript-node-custom-schema": "./run-example.sh examples/javascript-node-custom-schema",
     "lint": "tsc  && eslint \"./src/**/*.{ts,js}\" --quiet --fix",
-    "preinstall": "npm run build && ls ."
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
